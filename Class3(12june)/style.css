@@ -1,0 +1,24 @@
+/* Grouping Selector */
+h1,
+h2 {
+    color: rgb(255, 195, 127);
+}
+
+/* Decendent selector */
+.list>li {
+    color: aqua;
+}
+
+.box>p {
+    color: red;
+}
+
+li.done {
+    color: rgb(244, 72, 138);
+}
+ul p{
+    color: brown;
+}
+#done{
+    color: pink;
+}

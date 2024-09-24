@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 10px solid black;
+    border-radius: 3px;
+    border-radius: 8px;
+}
+
+.white{
+    height: 100px;
+    width: 100px;
+    /* background-color: antiquewhite; */
+    background-color: white;
+}
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

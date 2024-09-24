@@ -1,0 +1,76 @@
+.cont1 {
+    border: 2px solid rgb(242, 241, 241);
+    background-color: rgb(249, 246, 246);
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.cont2 {
+    border: 2px solid rgb(242, 241, 241);
+    background-color: rgb(249, 246, 246);
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.cont3 {
+    border: 2px solid rgb(242, 241, 241);
+    background-color: rgb(249, 246, 246);
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+
+.material-symbols-outlined {
+    color: green;
+}
+#block {
+    color: rgb(246, 29, 29);
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 2rem;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: rgba(251, 164, 1, 0.934);
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    border-color: white;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: larger;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.order {
+    font-weight: 1000;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.quality {
+    font-family: "Lucida Console", Courier, monospace   ;
+    font-size: small;
+    font-weight: 600;
+}
+@media (max-width: 1250px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+}
